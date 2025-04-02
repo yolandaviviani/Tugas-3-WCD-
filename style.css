@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+head {/* font-family: 'Mulish', sans-serif;
+  font-family: 'Open Sans', sans-serif; */}
+
+
+body {
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+  min-height: 100vh;
+  
+}
+
+.page {
+  width: 1040px;
+  margin: 0px auto;
+  padding-top: 64px;
+}
+
+/* Check margin */
+nav {
+  font-family: 'Mulish', sans-serif;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Check list styling */
+nav ul {
+  display: flex;
+  gap: 48px;
+}
+
+/* Check list link style */
+nav ul li{list-style-type: none;
+}
+
+/*Font list Styling*/
+nav ul li a {font-weight: bolder;
+}
+
+/*Font list Color*/
+nav ui li a {color: lightslategray;}
+
+/* Make text bold on hover */
+text-button:hover {
+  font-weight: bold;
+
+}
+
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 88px;
+}
+
+/* Check margin and font styling */
+h1 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 45px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  line-height: 70px;
+  
+}
+
+/* Check font styling */
+.text-emphasis-color {color: rgb(127, 214, 230)
+}
+
+/* Check font styling */
+.text p {
+  font-family: 'Open Sans', sans-serif;
+  font-size:medium;
+  line-height:25px;
+  letter-spacing: 0px;
+  color:rgb(129, 126, 126);
+  
+}
+
+/* Check font styling and make sure the button is rounded */
+.text button {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  gap: 8px;
+  color:antiquewhite
+}
+
+/*Button color*/
+button {
+  background-color: #08bd7a;
+  border:none;
+  color:white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/* Handle when user hover on the button */
+.text-button:hover {
+
+}
+
+/* Check the text styling */
+.footer {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+/* Check the text styling */
+footer a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+  }
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
